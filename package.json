@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest --passWithNoTests --reporter=verbose --coverage.enabled --coverage.provider=istanbul --coverage.all"
+    "test": "vitest --passWithNoTests --reporter=verbose --coverage.enabled --coverage.all"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
